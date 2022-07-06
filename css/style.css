@@ -611,7 +611,7 @@ ul {
 }
 
 ul li {
-    margin: 8px 0;
+    margin:  0;
 }
 
 
@@ -3666,8 +3666,8 @@ Back To Top Section
 /* 4.1 - NAVBAR */
 
 .navbar-brand {
-    padding-top: .7rem;
-    padding-bottom: .7rem;
+    /* padding-top: .7rem;
+    padding-bottom: .7rem; */
     font-size: 36px;
     color: #FD4D40;
     font-weight: 700;

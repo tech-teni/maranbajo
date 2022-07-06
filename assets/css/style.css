@@ -7,6 +7,89 @@ body {
   color: #111;
   font-weight: 400;
 }
+/*  */
+.section-padding--bottom {
+  padding-bottom: 50px;
+}
+.service--2 .service {
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.service {
+  box-shadow: 0 0 13px rgb(0 0 0 / 10%);
+  padding: 0 10%;
+  position: relative;
+  text-align: center;
+}
+.colourful {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 425px) {
+  .colourful {
+    margin-bottom: 80px;
+  }
+  .child_login a {
+    width: 40px;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 13px 20px;
+    border: 0;
+    font-weight: 400;
+    min-width: 100px;
+    /* border-radius: 30px; */
+  }
+}
+.bg__cat--4 {
+  background: rgb(27, 51, 189);
+}
+.service--2 .service .service__details {
+  padding-bottom: 38px;
+  padding-top: 62px;
+}
+.service--2 .service .service__details h6 a {
+  color: #ffffff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 21px;
+}
+.service--2 .service .service__details p {
+  color: #ffffff;
+  line-height: 23px;
+}
+.service .service__icon {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  height: 85px;
+  left: 50%;
+  line-height: 85px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: -43px;
+  transform: translateX(-50%);
+  width: 85px;
+}
+.service .service__icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.bg__cat--5 {
+  background: #ffc10d;
+}
+.bg__cat--6 {
+  background: #ff5d52;
+}
+.bg__cat--7 {
+  background: #68b9d8;
+}
+/*  */
 ::-moz-selection {
   background: #fab205;
   color: #111;
@@ -745,7 +828,8 @@ footer {
   transform: rotate(360deg);
 }
 .footer_link {
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  margin-left: 0px;
 }
 .footer_link > li {
   margin-bottom: 20px;
@@ -761,6 +845,9 @@ footer {
 .contact_us li {
   color: #ffffff;
   margin: 10px 0;
+}
+.contact_us {
+  margin-left: 0px;
 }
 .footer_title a {
   color: #fcfcfc;
@@ -1717,5 +1804,6 @@ footer {
   padding: 15px;
 }
 .navbar-brand img {
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
