@@ -1818,6 +1818,8 @@ footer {
   border-radius: 20px;
   position: relative;
   bottom: 20px;
+  right: 10px;
+
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -1825,6 +1827,7 @@ footer {
 .mobile-btn a {
   color: #42241c;
   font-size: 8px;
+  font-weight: bold;
 }
 .nav-dis {
   display: flex;
