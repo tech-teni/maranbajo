@@ -8,6 +8,8 @@ body {
   font-weight: 400;
 }
 /*  */
+.show-image {
+}
 .section-padding--bottom {
   padding-bottom: 50px;
 }
@@ -31,10 +33,7 @@ body {
   .colourful {
     margin-bottom: 80px;
   }
-  .child_login a {
-    width: 40px;
-  }
-  .btn {
+  n {
     font-size: 12px;
     padding: 13px 20px;
     border: 0;
@@ -1806,4 +1805,31 @@ footer {
 .navbar-brand img {
   width: 80px;
   height: 80px;
+}
+.navbar-brand2 img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.mobile-btn {
+  color: #42241c;
+  background-color: #f7f8a0;
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.mobile-btn a {
+  color: #42241c;
+  font-size: 8px;
+}
+.nav-dis {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
 }

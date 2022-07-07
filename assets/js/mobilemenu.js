@@ -89,9 +89,9 @@
               (E = !0),
               jQuery(t).addClass("mean-container"),
               jQuery(".mean-container").prepend(
-                '<div class="mean-bar"><div class="child_login pull-right"><a href="https://eschool-ng.com/login.php" class="btn btn-success p-3">Eschool Portal</a></div><a href="#nav" class="meanmenu-reveal" style="' +
+                '<div class="mean-bar "><div class="show-image" >  <a class="navbar-brand2" href="index.html" "> <img src="assets/images/Gallery/logo3.png" alt="Main Logo"/></a>     </div><div class="nav-dis" ><button class="mobile-btn"><a href="https://eschool-ng.com/login.php" class="">Eschool Portal</a></button><div><a href="#nav" class="meanmenu-reveal" style="' +
                   e +
-                  '">Show Navigation</a><nav class="mean-nav"></nav></div>'
+                  '">Show Navigation</a><nav class="mean-nav"></nav></div></div>'
               );
             var r = jQuery(n).html();
             jQuery(".mean-nav").html(r),
